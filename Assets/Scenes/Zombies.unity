@@ -1252,7 +1252,6 @@ GameObject:
   m_Component:
   - component: {fileID: 383748961}
   - component: {fileID: 383748960}
-  - component: {fileID: 383748959}
   - component: {fileID: 383748962}
   m_Layer: 0
   m_Name: Main Camera
@@ -1261,14 +1260,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!81 &383748959
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 383748958}
-  m_Enabled: 1
 --- !u!20 &383748960
 Camera:
   m_ObjectHideFlags: 0
@@ -3633,6 +3624,14 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 4b63b500656237840ad9527e87f49a62, type: 3}
   m_PrefabInstance: {fileID: 46714591}
   m_PrefabAsset: {fileID: 0}
+--- !u!81 &2037513485
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2037513480}
+  m_Enabled: 1
 --- !u!1 &2082731886
 GameObject:
   m_ObjectHideFlags: 0
@@ -3853,7 +3852,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2448029151082161729, guid: af8a2da4c9ac4b7469959e61bdb7301e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -6.47
+      value: -6.493
       objectReference: {fileID: 0}
     - target: {fileID: 2448029151082161729, guid: af8a2da4c9ac4b7469959e61bdb7301e, type: 3}
       propertyPath: m_LocalPosition.z
@@ -3910,7 +3909,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3462172365307610193, guid: 872cd3c723e0d9c428a82dc3cd7559be, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -6.45
+      value: -6.492
       objectReference: {fileID: 0}
     - target: {fileID: 3462172365307610193, guid: 872cd3c723e0d9c428a82dc3cd7559be, type: 3}
       propertyPath: m_LocalPosition.z
@@ -3971,7 +3970,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7931415713382982532, guid: c8d9da57293f0214eb7504242c6f48f9, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -6.443
+      value: -6.48
       objectReference: {fileID: 0}
     - target: {fileID: 7931415713382982532, guid: c8d9da57293f0214eb7504242c6f48f9, type: 3}
       propertyPath: m_LocalPosition.z
